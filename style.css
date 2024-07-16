@@ -1,0 +1,29 @@
+body {
+    background: #ccc;
+}
+
+#title, .subtitle, .post_title {
+    color: blue;
+}
+
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.post {
+    background: #FFF;
+    padding: 10px/*Eixo y */ 5px/*Eixo Z */;
+    border: 3px solid #000;
+    margin: 10px 10px 10px 10px; /*Atingi os 4 lados separadamente*/
+    /*
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    */
+    background-color: green;
+    background-image: url("bg.png");
+    background-position: top;
+
+}
